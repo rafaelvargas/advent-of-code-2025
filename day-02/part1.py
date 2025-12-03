@@ -2,7 +2,7 @@
 import math
 
 def main():
-    with open("input.txt", "r") as file:
+    with open("input_part1.txt", "r") as file:
         ranges_as_str = file.readline()
         ranges = list(map(lambda r: r.split("-"), ranges_as_str.strip().split(",")))
 
